@@ -1,13 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
-import OvelCarousal from "@/components/OvalCaraousel";
+import OvelCarousal from "@/components/Sliders/OvalCaraousel";
 import TimerCountDown from './Timer';
 import EventSlide from './Sliders/EventSlide';
 import Chat from './chat';
 import FreshDrop from '@/components/Freshdrop';
-import ShopCategory from './Grid/ImageGrid';
+import ShopCategory from './Grid/ShopbyCategory';
 import ShopOccasion from './Sliders/ShopOcassion';
-import StoreSlide from './Store';
+import StoreSlide from './Sliders/Store';
 import Footer from './Footer';
+import Bestseller from './Sliders/Bestseller';
+import Assurance from './Sliders/Assurance';
 
 const Home = () => {
 
@@ -33,9 +35,11 @@ const Home = () => {
                 </div>
                 </div>
             </div>
+            <Assurance/>
             <ShopCategory />
             <Chat/>
             <ShopOccasion />
+            <Bestseller/>
             <StoreSlide />
             <EventSlide />
             <Footer/>

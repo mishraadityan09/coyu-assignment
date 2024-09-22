@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import image from '../../public/imageB.png';
+import image from '/public/imageB.png';
 import Image from 'next/image';
 import active from '/public/storebtnicon/Vector.png'
 import inactive from '/public/storebtnicon/Vector (1).png'
